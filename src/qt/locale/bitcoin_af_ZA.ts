@@ -139,8 +139,8 @@
         <translation>&amp;Opsies</translation>
     </message>
     <message>
-        <source>Dogecoin</source>
-        <translation>Dogecoin</translation>
+        <source>Muricoin</source>
+        <translation>Muricoin</translation>
     </message>
     <message>
         <source>Wallet</source>

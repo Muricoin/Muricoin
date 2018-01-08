@@ -1,45 +1,45 @@
-Dogecoin Core 1.10
+Muricoin Core 1.10
 ==================
 
 Setup
 ---------------------
-[Dogecoin Core](http://dogecoin.com/) is the reference Dogecoin client and it builds the backbone of the network. However, it downloads and stores the entire history of Dogecoin transactions (which is currently several GBs); depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more.
+[Muricoin Core](http://muricoin.com/) is the reference Muricoin client and it builds the backbone of the network. However, it downloads and stores the entire history of Muricoin transactions (which is currently several GBs); depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more.
 
 Running
 ---------------------
-The following are some helpful notes on how to run Dogecoin on your native platform.
+The following are some helpful notes on how to run Muricoin on your native platform.
 
 ### Unix
 
-You need the Qt4 run-time libraries to run Dogecoin-Qt. On Debian or Ubuntu:
+You need the Qt4 run-time libraries to run Muricoin-Qt. On Debian or Ubuntu:
 
 	sudo apt-get install libqtgui4
 
 Unpack the files into a directory and run:
 
-- bin/32/dogecoin-qt (GUI, 32-bit) or bin/32/dogecoind (headless, 32-bit)
-- bin/64/dogecoin-qt (GUI, 64-bit) or bin/64/dogecoind (headless, 64-bit)
+- bin/32/muricoin-qt (GUI, 32-bit) or bin/32/muricoind (headless, 32-bit)
+- bin/64/muricoin-qt (GUI, 64-bit) or bin/64/muricoind (headless, 64-bit)
 
 
 
 ### Windows
 
-Unpack the files into a directory, and then run dogecoin-qt.exe.
+Unpack the files into a directory, and then run muricoin-qt.exe.
 
 ### OSX
 
-Drag Dogecoin-Qt to your applications folder, and then run Dogecoin-Qt.
+Drag Muricoin-Qt to your applications folder, and then run Muricoin-Qt.
 
 ### Need Help?
 
 * See the documentation at the [Bitcoin Wiki](https://en.bitcoin.it/wiki/Main_Page)
 for help and more information.
-* Ask for help on [#dogecoin](http://webchat.freenode.net?channels=dogecoin) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=dogecoin).
-* Ask for help on the [BitcoinTalk](https://bitcointalk.org/) forums, in the [Dogecoin thread](https://bitcointalk.org/index.php?topic=361813.0).
+* Ask for help on [#muricoin](http://webchat.freenode.net?channels=muricoin) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=muricoin).
+* Ask for help on the [BitcoinTalk](https://bitcointalk.org/) forums, in the [Muricoin thread](https://bitcointalk.org/index.php?topic=361813.0).
 
 Building
 ---------------------
-The following are developer notes on how to build Dogecoin on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
+The following are developer notes on how to build Muricoin on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
 
 - [OSX Build Notes](build-osx.md)
 - [Unix Build Notes](build-unix.md)
@@ -47,7 +47,7 @@ The following are developer notes on how to build Dogecoin on your native platfo
 
 Development
 ---------------------
-The Dogecoin repo's [root README](https://github.com/dogecoin/dogecoin/blob/master/README.md) contains relevant information on the development process and automated testing.
+The Muricoin repo's [root README](https://github.com/muricoin/muricoin/blob/master/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
 - [Multiwallet Qt Development](multiwallet-qt.md)
@@ -61,8 +61,8 @@ The Dogecoin repo's [root README](https://github.com/dogecoin/dogecoin/blob/mast
 - [Dnsseed Policy](dnsseed-policy.md)
 
 ### Resources
-* Discuss on the [BitcoinTalk](https://bitcointalk.org/) forums, in the [Dogecoin thread](https://bitcointalk.org/index.php?topic=361813.0).
-* Discuss on [#dogecoin-dev](http://webchat.freenode.net/?channels=dogecoin-dev) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=dogecoin-dev).
+* Discuss on the [BitcoinTalk](https://bitcointalk.org/) forums, in the [Muricoin thread](https://bitcointalk.org/index.php?topic=361813.0).
+* Discuss on [#muricoin-dev](http://webchat.freenode.net/?channels=muricoin-dev) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=muricoin-dev).
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)

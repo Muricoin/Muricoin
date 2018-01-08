@@ -2,36 +2,36 @@
 
 # backward compatibility for existing gentoo layout 
 #
-if [ -d "/var/lib/dogecoin/.dogecoin" ]; then
-	DOGECOIND_DEFAULT_DATADIR="/var/lib/dogecoin/.dogecoin"
+if [ -d "/var/lib/muricoin/.muricoin" ]; then
+	MURICOIND_DEFAULT_DATADIR="/var/lib/muricoin/.muricoin"
 else
-	DOGECOIND_DEFAULT_DATADIR="/var/lib/dogecoind"
+	MURICOIND_DEFAULT_DATADIR="/var/lib/muricoind"
 fi
 
-DOGECOIND_CONFIGFILE=${DOGECOIND_CONFIGFILE:-/etc/dogecoin/dogecoin.conf}
-DOGECOIND_PIDDIR=${DOGECOIND_PIDDIR:-/var/run/dogecoind}
-DOGECOIND_PIDFILE=${DOGECOIND_PIDFILE:-${DOGECOIND_PIDDIR}/dogecoind.pid}
-DOGECOIND_DATADIR=${DOGECOIND_DATADIR:-${DOGECOIND_DEFAULT_DATADIR}}
-DOGECOIND_USER=${DOGECOIND_USER:-${DOGECOIN_USER:-dogecoin}}
-DOGECOIND_GROUP=${DOGECOIND_GROUP:-dogecoin}
-DOGECOIND_BIN=${DOGECOIND_BIN:-/usr/bin/dogecoind}
-DOGECOIND_NICE=${DOGECOIND_NICE:-${NICELEVEL:-0}}
-DOGECOIND_OPTS="${DOGECOIND_OPTS:-${DOGECOIN_OPTS}}"
+MURICOIND_CONFIGFILE=${MURICOIND_CONFIGFILE:-/etc/muricoin/muricoin.conf}
+MURICOIND_PIDDIR=${MURICOIND_PIDDIR:-/var/run/muricoind}
+MURICOIND_PIDFILE=${MURICOIND_PIDFILE:-${MURICOIND_PIDDIR}/muricoind.pid}
+MURICOIND_DATADIR=${MURICOIND_DATADIR:-${MURICOIND_DEFAULT_DATADIR}}
+MURICOIND_USER=${MURICOIND_USER:-${MURICOIN_USER:-muricoin}}
+MURICOIND_GROUP=${MURICOIND_GROUP:-muricoin}
+MURICOIND_BIN=${MURICOIND_BIN:-/usr/bin/muricoind}
+MURICOIND_NICE=${MURICOIND_NICE:-${NICELEVEL:-0}}
+MURICOIND_OPTS="${MURICOIND_OPTS:-${MURICOIN_OPTS}}"
 
-name="Dogecoin Core Daemon"
-description="Dogecoin cryptocurrency P2P network daemon"
+name="Muricoin Core Daemon"
+description="Muricoin cryptocurrency P2P network daemon"
 
-command="/usr/bin/dogecoind"
-command_args="-pid=\"${DOGECOIND_PIDFILE}\" \
-		-conf=\"${DOGECOIND_CONFIGFILE}\" \
-		-datadir=\"${DOGECOIND_DATADIR}\" \
+command="/usr/bin/muricoind"
+command_args="-pid=\"${MURICOIND_PIDFILE}\" \
+		-conf=\"${MURICOIND_CONFIGFILE}\" \
+		-datadir=\"${MURICOIND_DATADIR}\" \
 		-daemon \
-		${DOGECOIND_OPTS}"
+		${MURICOIND_OPTS}"
 
-required_files="${DOGECOIND_CONFIGFILE}"
-start_stop_daemon_args="-u ${DOGECOIND_USER} \
-			-N ${DOGECOIND_NICE} -w 2000"
-pidfile="${DOGECOIND_PIDFILE}"
+required_files="${MURICOIND_CONFIGFILE}"
+start_stop_daemon_args="-u ${MURICOIND_USER} \
+			-N ${MURICOIND_NICE} -w 2000"
+pidfile="${MURICOIND_PIDFILE}"
 retry=60
 
 depend() {
@@ -46,29 +46,29 @@ start_pre() {
 	checkpath \
 	-d \
 	--mode 0750 \
-	--owner "${DOGECOIND_USER}:${DOGECOIND_GROUP}" \
-	"${DOGECOIND_DATADIR}"
+	--owner "${MURICOIND_USER}:${MURICOIND_GROUP}" \
+	"${MURICOIND_DATADIR}"
 
 	checkpath \
 	-d \
 	--mode 0755 \
-	--owner "${DOGECOIND_USER}:${DOGECOIND_GROUP}" \
-	"${DOGECOIND_PIDDIR}"
+	--owner "${MURICOIND_USER}:${MURICOIND_GROUP}" \
+	"${MURICOIND_PIDDIR}"
 
 	checkpath -f \
-	-o ${DOGECOIND_USER}:${DOGECOIND_GROUP} \
+	-o ${MURICOIND_USER}:${MURICOIND_GROUP} \
 	-m 0660 \
-	${DOGECOIND_CONFIGFILE}
+	${MURICOIND_CONFIGFILE}
 
 	checkconfig || return 1
 }
 
 checkconfig()
 {
-	if ! grep -qs '^rpcpassword=' "${DOGECOIND_CONFIGFILE}" ; then
+	if ! grep -qs '^rpcpassword=' "${MURICOIND_CONFIGFILE}" ; then
 		eerror ""
-		eerror "ERROR: You must set a secure rpcpassword to run dogecoind."
-		eerror "The setting must appear in ${DOGECOIND_CONFIGFILE}"
+		eerror "ERROR: You must set a secure rpcpassword to run muricoind."
+		eerror "The setting must appear in ${MURICOIND_CONFIGFILE}"
 		eerror ""
 		eerror "This password is security critical to securing wallets "
 		eerror "and must not be the same as the rpcuser setting."
@@ -80,7 +80,7 @@ checkconfig()
 		eerror "It is also recommended that you also set alertnotify so you are "
 		eerror "notified of problems:"
 		eerror ""
-		eerror "ie: alertnotify=echo %%s | mail -s \"Dogecoin Alert\"" \
+		eerror "ie: alertnotify=echo %%s | mail -s \"Muricoin Alert\"" \
 			"admin@foo.com"
 		eerror ""
 		return 1

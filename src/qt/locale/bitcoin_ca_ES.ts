@@ -66,12 +66,12 @@
         <translation>S'estan rebent les adreces</translation>
     </message>
     <message>
-        <source>These are your Dogecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Aquestes són les vostres adreces de Dogecoin per enviar els pagaments. Sempre reviseu l'import i l'adreça del destinatari abans de transferir monedes.</translation>
+        <source>These are your Muricoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Aquestes són les vostres adreces de Muricoin per enviar els pagaments. Sempre reviseu l'import i l'adreça del destinatari abans de transferir monedes.</translation>
     </message>
     <message>
-        <source>These are your Dogecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Aquestes són les vostres adreces Dogecoin per rebre pagaments. Es recomana utilitzar una adreça nova de recepció per a cada transacció.</translation>
+        <source>These are your Muricoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Aquestes són les vostres adreces Muricoin per rebre pagaments. Es recomana utilitzar una adreça nova de recepció per a cada transacció.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -160,16 +160,16 @@
         <translation>Confirma l'encriptació del moneder</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DOGECOINS&lt;/b&gt;!</source>
-        <translation>Avís: si encripteu el vostre moneder i perdeu la contrasenya, &lt;b&gt;PERDREU TOTS ELS VOSTRES DOGECOINS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MURICOINS&lt;/b&gt;!</source>
+        <translation>Avís: si encripteu el vostre moneder i perdeu la contrasenya, &lt;b&gt;PERDREU TOTS ELS VOSTRES MURICOINS&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Esteu segur que voleu encriptar el vostre moneder?</translation>
     </message>
     <message>
-        <source>Dogecoin Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your dogecoins from being stolen by malware infecting your computer.</source>
-        <translation>Ara es tancarà el Dogecoin Core per finalitzar el procés d'encriptació. Tingueu present que encriptar el vostre moneder no garanteix que les vostres dogecoins no puguin ser robades per programari maliciós que infecti l'ordinador.</translation>
+        <source>Muricoin Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your muricoins from being stolen by malware infecting your computer.</source>
+        <translation>Ara es tancarà el Muricoin Core per finalitzar el procés d'encriptació. Tingueu present que encriptar el vostre moneder no garanteix que les vostres muricoins no puguin ser robades per programari maliciós que infecti l'ordinador.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -295,8 +295,8 @@
         <translation>Obre un &amp;URI...</translation>
     </message>
     <message>
-        <source>Dogecoin Core client</source>
-        <translation>Client del Dogecoin Core</translation>
+        <source>Muricoin Core client</source>
+        <translation>Client del Muricoin Core</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -307,8 +307,8 @@
         <translation>S'estan reindexant els blocs al disc...</translation>
     </message>
     <message>
-        <source>Send coins to a Dogecoin address</source>
-        <translation>Envia monedes a una adreça Dogecoin</translation>
+        <source>Send coins to a Muricoin address</source>
+        <translation>Envia monedes a una adreça Muricoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -331,8 +331,8 @@
         <translation>&amp;Verifica el missatge...</translation>
     </message>
     <message>
-        <source>Dogecoin</source>
-        <translation>Dogecoin</translation>
+        <source>Muricoin</source>
+        <translation>Muricoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -347,8 +347,8 @@
         <translation>&amp;Rep</translation>
     </message>
     <message>
-        <source>Show information about Dogecoin Core</source>
-        <translation>Mostra informació del Dogecoin Core</translation>
+        <source>Show information about Muricoin Core</source>
+        <translation>Mostra informació del Muricoin Core</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -363,12 +363,12 @@
         <translation>Encripta les claus privades pertanyents al moneder</translation>
     </message>
     <message>
-        <source>Sign messages with your Dogecoin addresses to prove you own them</source>
-        <translation>Signa el missatges amb la seva adreça de Dogecoin per provar que les poseeixes</translation>
+        <source>Sign messages with your Muricoin addresses to prove you own them</source>
+        <translation>Signa el missatges amb la seva adreça de Muricoin per provar que les poseeixes</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Dogecoin addresses</source>
-        <translation>Verifiqueu els missatges per assegurar-vos que han estat signats amb una adreça Dogecoin específica.</translation>
+        <source>Verify messages to ensure they were signed with specified Muricoin addresses</source>
+        <translation>Verifiqueu els missatges per assegurar-vos que han estat signats amb una adreça Muricoin específica.</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -387,20 +387,20 @@
         <translation>Barra d'eines de les pestanyes</translation>
     </message>
     <message>
-        <source>Dogecoin Core</source>
-        <translation>Nucli de Dogecoin</translation>
+        <source>Muricoin Core</source>
+        <translation>Nucli de Muricoin</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and dogecoin: URIs)</source>
-        <translation>Sol·licita pagaments (genera codis QR i dogecoin: URI)</translation>
+        <source>Request payments (generates QR codes and muricoin: URIs)</source>
+        <translation>Sol·licita pagaments (genera codis QR i muricoin: URI)</translation>
     </message>
     <message>
-        <source>&amp;About Dogecoin Core</source>
-        <translation>&amp;Quant al Dogecoin Core</translation>
+        <source>&amp;About Muricoin Core</source>
+        <translation>&amp;Quant al Muricoin Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for Dogecoin Core</source>
-        <translation>Modifica les opcions de configuració del Dogecoin Core</translation>
+        <source>Modify configuration options for Muricoin Core</source>
+        <translation>Modifica les opcions de configuració del Muricoin Core</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -411,20 +411,20 @@
         <translation>Mostra la llista d'adreces de recepció i etiquetes utilitzades</translation>
     </message>
     <message>
-        <source>Open a dogecoin: URI or payment request</source>
-        <translation>Obre una dogecoin: sol·licitud d'URI o pagament</translation>
+        <source>Open a muricoin: URI or payment request</source>
+        <translation>Obre una muricoin: sol·licitud d'URI o pagament</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>Opcions de la &amp;línia d'ordres</translation>
     </message>
     <message>
-        <source>Show the Dogecoin Core help message to get a list with possible Dogecoin command-line options</source>
-        <translation>Mostra el missatge d'ajuda del Dogecoin Core per obtenir una llista amb les possibles opcions de línia d'ordres de Dogecoin</translation>
+        <source>Show the Muricoin Core help message to get a list with possible Muricoin command-line options</source>
+        <translation>Mostra el missatge d'ajuda del Muricoin Core per obtenir una llista amb les possibles opcions de línia d'ordres de Muricoin</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Dogecoin network</source>
-        <translation><numerusform>%n connexió activa a la xarxa Dogecoin</numerusform><numerusform>%n connexions actives a la xarxa Dogecoin</numerusform></translation>
+        <source>%n active connection(s) to Muricoin network</source>
+        <translation><numerusform>%n connexió activa a la xarxa Muricoin</numerusform><numerusform>%n connexions actives a la xarxa Muricoin</numerusform></translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -806,8 +806,8 @@
         <translation>L'adreça introduïda «%1» ja és present a la llibreta d'adreces.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Dogecoin address.</source>
-        <translation>L'adreça introduïda «%1» no és una adreça de Dogecoin vàlida.</translation>
+        <source>The entered address "%1" is not a valid Muricoin address.</source>
+        <translation>L'adreça introduïda «%1» no és una adreça de Muricoin vàlida.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -844,8 +844,8 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Dogecoin Core</source>
-        <translation>Nucli de Dogecoin</translation>
+        <source>Muricoin Core</source>
+        <translation>Nucli de Muricoin</translation>
     </message>
     <message>
         <source>version</source>
@@ -856,8 +856,8 @@
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Dogecoin Core</source>
-        <translation>Quant al Dogecoin Core</translation>
+        <source>About Muricoin Core</source>
+        <translation>Quant al Muricoin Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -879,16 +879,16 @@
         <translation>Us donem la benviguda</translation>
     </message>
     <message>
-        <source>Welcome to Dogecoin Core.</source>
-        <translation>Us donem la benvinguda al Dogecoin Core.</translation>
+        <source>Welcome to Muricoin Core.</source>
+        <translation>Us donem la benvinguda al Muricoin Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Dogecoin Core will store its data.</source>
-        <translation>Atès que és la primera vegada que executeu el programa, podeu triar on emmagatzemarà el Dogecoin Core les dades.</translation>
+        <source>As this is the first time the program is launched, you can choose where Muricoin Core will store its data.</source>
+        <translation>Atès que és la primera vegada que executeu el programa, podeu triar on emmagatzemarà el Muricoin Core les dades.</translation>
     </message>
     <message>
-        <source>Dogecoin Core will download and store a copy of the Dogecoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>El Dogecoin Core descarregarà i emmagatzemarà una còpia de la cadena de blocs de Dogecoin. Com a mínim s'emmagatzemaran %1 GB de dades en aquest directori, que seguiran creixent gradualment. També s'hi emmagatzemarà el moneder.</translation>
+        <source>Muricoin Core will download and store a copy of the Muricoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>El Muricoin Core descarregarà i emmagatzemarà una còpia de la cadena de blocs de Muricoin. Com a mínim s'emmagatzemaran %1 GB de dades en aquest directori, que seguiran creixent gradualment. També s'hi emmagatzemarà el moneder.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -899,8 +899,8 @@
         <translation>Utilitza un directori de dades personalitzat:</translation>
     </message>
     <message>
-        <source>Dogecoin Core</source>
-        <translation>Nucli de Dogecoin</translation>
+        <source>Muricoin Core</source>
+        <translation>Nucli de Muricoin</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -981,8 +981,8 @@
         <translation>Minimitza en comptes de sortir de l'aplicació quan la finestra es tanca. Quan s'habilita aquesta opció l'aplicació es tancara només quan se selecciona Surt del menú. </translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Dogecoin Core.</source>
-        <translation>La interfície d'usuari pot definir-se des d'aquí. El paràmetre tindrà efecte després de reiniciar el Dogecoin Core.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Muricoin Core.</source>
+        <translation>La interfície d'usuari pot definir-se des d'aquí. El paràmetre tindrà efecte després de reiniciar el Muricoin Core.</translation>
     </message>
     <message>
         <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
@@ -1009,12 +1009,12 @@
         <translation>&amp;Xarxa</translation>
     </message>
     <message>
-        <source>Automatically start Dogecoin Core after logging in to the system.</source>
-        <translation>Inicia el Dogecoin Core automàticament després d'iniciar una sessió en el sistema.</translation>
+        <source>Automatically start Muricoin Core after logging in to the system.</source>
+        <translation>Inicia el Muricoin Core automàticament després d'iniciar una sessió en el sistema.</translation>
     </message>
     <message>
-        <source>&amp;Start Dogecoin Core on system login</source>
-        <translation>&amp;Inicia el Dogecoin Core en inciar el sistema</translation>
+        <source>&amp;Start Muricoin Core on system login</source>
+        <translation>&amp;Inicia el Muricoin Core en inciar el sistema</translation>
     </message>
     <message>
         <source>(0 = auto, &lt;0 = leave that many cores free)</source>
@@ -1041,16 +1041,16 @@
         <translation>&amp;Gasta el canvi sense confirmar</translation>
     </message>
     <message>
-        <source>Automatically open the Dogecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Obre el port del client de Dogecoin al router de forma automàtica. Això només funciona quan el router implementa UPnP i l'opció està activada.</translation>
+        <source>Automatically open the Muricoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Obre el port del client de Muricoin al router de forma automàtica. Això només funciona quan el router implementa UPnP i l'opció està activada.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Port obert amb &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the Dogecoin network through a SOCKS5 proxy.</source>
-        <translation>Connecta a la xarxa Dogecoin a través d'un proxy SOCKS5.</translation>
+        <source>Connect to the Muricoin network through a SOCKS5 proxy.</source>
+        <translation>Connecta a la xarxa Muricoin a través d'un proxy SOCKS5.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1148,8 +1148,8 @@
         <translation>Formulari</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Dogecoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>La informació mostrada pot no estar al día. El teu moneder es sincronitza automàticament amb la xarxa Dogecoin un cop s'ha establert connexió, però aquest proces no s'ha completat encara.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Muricoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>La informació mostrada pot no estar al día. El teu moneder es sincronitza automàticament amb la xarxa Muricoin un cop s'ha establert connexió, però aquest proces no s'ha completat encara.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1247,16 +1247,16 @@
         <translation>Error en la sol·licitud de pagament</translation>
     </message>
     <message>
-        <source>Cannot start dogecoin: click-to-pay handler</source>
-        <translation>No es pot iniciar dogecoin: gestor clica-per-pagar</translation>
+        <source>Cannot start muricoin: click-to-pay handler</source>
+        <translation>No es pot iniciar muricoin: gestor clica-per-pagar</translation>
     </message>
     <message>
         <source>Payment request fetch URL is invalid: %1</source>
         <translation>L'URL de recuperació de la sol·licitud de pagament no és vàlida: %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Dogecoin address or malformed URI parameters.</source>
-        <translation>L'URI no pot ser analitzat! Això pot ser a causa d'una adreça de Dogecoin no vàlida o per paràmetres URI amb mal format.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Muricoin address or malformed URI parameters.</source>
+        <translation>L'URI no pot ser analitzat! Això pot ser a causa d'una adreça de Muricoin no vàlida o per paràmetres URI amb mal format.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1333,8 +1333,8 @@
         <translation>Import</translation>
     </message>
     <message>
-        <source>Enter a Dogecoin address (e.g. %1)</source>
-        <translation>Introduïu una adreça de Dogecoin (p. ex. %1)</translation>
+        <source>Enter a Muricoin address (e.g. %1)</source>
+        <translation>Introduïu una adreça de Muricoin (p. ex. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1443,8 +1443,8 @@
         <translation>Nombre de blocs actuals</translation>
     </message>
     <message>
-        <source>Open the Dogecoin Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Obre el fitxer de registre de depuració del Dogecoin Core del directori de dades actual. Pot portar uns quants segons per a fitxers de registre grans.</translation>
+        <source>Open the Muricoin Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Obre el fitxer de registre de depuració del Muricoin Core del directori de dades actual. Pot portar uns quants segons per a fitxers de registre grans.</translation>
     </message>
     <message>
         <source>Received</source>
@@ -1563,8 +1563,8 @@
         <translation>Neteja la consola</translation>
     </message>
     <message>
-        <source>Welcome to the Dogecoin Core RPC console.</source>
-        <translation>Us donem la benviguda a la consola RPC del Dogecoin Core.</translation>
+        <source>Welcome to the Muricoin Core RPC console.</source>
+        <translation>Us donem la benviguda a la consola RPC del Muricoin Core.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1638,8 +1638,8 @@
         <translation>R&amp;eutilitza una adreça de recepció anterior (no recomanat)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Dogecoin network.</source>
-        <translation>Un missatge opcional que s'adjuntarà a la sol·licitud de pagament, que es mostrarà quan s'obri la sol·licitud. Nota: El missatge no s'enviarà amb el pagament per la xarxa Dogecoin.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Muricoin network.</source>
+        <translation>Un missatge opcional que s'adjuntarà a la sol·licitud de pagament, que es mostrarà quan s'obri la sol·licitud. Nota: El missatge no s'enviarà amb el pagament per la xarxa Muricoin.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -1871,8 +1871,8 @@
         <translation>total com a mínim</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for dogecoin transactions than the network can process.</source>
-        <translation>No hi ha cap problema en pagar només la comissió mínima sempre que hi hagi menys volum de transacció que espai en els blocs. Però tingueu present que això pot acabar en una transacció que mai es confirmi una vegada hi hagi més demanda de transaccions de dogecoins que la xarxa pugui processar.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for muricoin transactions than the network can process.</source>
+        <translation>No hi ha cap problema en pagar només la comissió mínima sempre que hi hagi menys volum de transacció que espai en els blocs. Però tingueu present que això pot acabar en una transacció que mai es confirmi una vegada hi hagi més demanda de transaccions de muricoins que la xarxa pugui processar.</translation>
     </message>
     <message>
         <source>(read the tooltip)</source>
@@ -2031,8 +2031,8 @@
         <translation>S'ha trobat una adreça duplicada: cal utilitzar les adreces només un cop cada vegada.</translation>
     </message>
     <message>
-        <source>Warning: Invalid Dogecoin address</source>
-        <translation>Avís: adreça Dogecoin no vàlida</translation>
+        <source>Warning: Invalid Muricoin address</source>
+        <translation>Avís: adreça Muricoin no vàlida</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -2082,8 +2082,8 @@
         <translation>Això és un pagament normal.</translation>
     </message>
     <message>
-        <source>The Dogecoin address to send the payment to</source>
-        <translation>L'adreça Dogecoin on enviar el pagament</translation>
+        <source>The Muricoin address to send the payment to</source>
+        <translation>L'adreça Muricoin on enviar el pagament</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2102,8 +2102,8 @@
         <translation>Elimina aquesta entrada</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less dogecoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>La comissió es deduirà de l'import que s'enviarà. El destinatari rebrà menys dogecoins que les que introduïu al camp d'import. Si se seleccionen múltiples destinataris, la comissió es dividirà per igual.</translation>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less muricoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <translation>La comissió es deduirà de l'import que s'enviarà. El destinatari rebrà menys muricoins que les que introduïu al camp d'import. Si se seleccionen múltiples destinataris, la comissió es dividirà per igual.</translation>
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
@@ -2126,8 +2126,8 @@
         <translation>Introduïu una etiqueta per a aquesta adreça per afegir-la a la llista d'adreces utilitzades</translation>
     </message>
     <message>
-        <source>A message that was attached to the dogecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Dogecoin network.</source>
-        <translation>Un missatge que s'ha adjuntat al dogecoin: URI que s'emmagatzemarà amb la transacció per a la vostra referència. Nota: el missatge no s'enviarà a través de la xarxa Dogecoin.</translation>
+        <source>A message that was attached to the muricoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Muricoin network.</source>
+        <translation>Un missatge que s'ha adjuntat al muricoin: URI que s'emmagatzemarà amb la transacció per a la vostra referència. Nota: el missatge no s'enviarà a través de la xarxa Muricoin.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2141,8 +2141,8 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Dogecoin Core is shutting down...</source>
-        <translation>S'està aturant el Dogecoin Core...</translation>
+        <source>Muricoin Core is shutting down...</source>
+        <translation>S'està aturant el Muricoin Core...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2160,12 +2160,12 @@
         <translation>&amp;Signa el missatge</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive dogecoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Podeu signar missatges/acords amb les vostres adreces per provar que rebeu les dogecoins que s'hi envien. Aneu amb compte no signar res que sigui vague o aleatori, perquè en alguns atacs de suplantació es pot provar que hi signeu la vostra identitat. Només signeu aquelles declaracions completament detallades en què hi esteu d'acord. </translation>
+        <source>You can sign messages/agreements with your addresses to prove you can receive muricoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <translation>Podeu signar missatges/acords amb les vostres adreces per provar que rebeu les muricoins que s'hi envien. Aneu amb compte no signar res que sigui vague o aleatori, perquè en alguns atacs de suplantació es pot provar que hi signeu la vostra identitat. Només signeu aquelles declaracions completament detallades en què hi esteu d'acord. </translation>
     </message>
     <message>
-        <source>The Dogecoin address to sign the message with</source>
-        <translation>L'adreça Dogecoin amb què signar el missatge</translation>
+        <source>The Muricoin address to sign the message with</source>
+        <translation>L'adreça Muricoin amb què signar el missatge</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2196,8 +2196,8 @@
         <translation>Copia la signatura actual al porta-retalls del sistema</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Dogecoin address</source>
-        <translation>Signa el missatge per provar que ets propietari d'aquesta adreça Dogecoin</translation>
+        <source>Sign the message to prove you own this Muricoin address</source>
+        <translation>Signa el missatge per provar que ets propietari d'aquesta adreça Muricoin</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2216,12 +2216,12 @@
         <translation>&amp;Verifica el missatge</translation>
     </message>
     <message>
-        <source>The Dogecoin address the message was signed with</source>
-        <translation>L'adreça Dogecoin amb què va ser signat el missatge</translation>
+        <source>The Muricoin address the message was signed with</source>
+        <translation>L'adreça Muricoin amb què va ser signat el missatge</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Dogecoin address</source>
-        <translation>Verificar el missatge per assegurar-se que ha estat signat amb una adreça Dogecoin específica</translation>
+        <source>Verify the message to ensure it was signed with the specified Muricoin address</source>
+        <translation>Verificar el missatge per assegurar-se que ha estat signat amb una adreça Muricoin específica</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2287,12 +2287,12 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Dogecoin Core</source>
-        <translation>Dogecoin Core</translation>
+        <source>Muricoin Core</source>
+        <translation>Muricoin Core</translation>
     </message>
     <message>
-        <source>The Dogecoin Core developers</source>
-        <translation>Els desenvolupadors del Dogecoin Core</translation>
+        <source>The Muricoin Core developers</source>
+        <translation>Els desenvolupadors del Muricoin Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2837,8 +2837,8 @@
         <translation>Aquesta és una versió de pre-llançament - utilitza-la sota la teva responsabilitat - No usar per a minería o aplicacions de compra-venda</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Dogecoin Core is probably already running.</source>
-        <translation>No es pot enllaçar %s a aquest ordinador. El Dogecoin Core probablement ja estigui executant-s'hi.</translation>
+        <source>Unable to bind to %s on this computer. Muricoin Core is probably already running.</source>
+        <translation>No es pot enllaçar %s a aquest ordinador. El Muricoin Core probablement ja estigui executant-s'hi.</translation>
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
@@ -3013,8 +3013,8 @@
         <translation>Vincula a l'adreça donada per a escoltar les connexions JSON-RPC. Feu servir la notació [host]:port per a IPv6. Aquesta opció pot ser especificada moltes vegades (per defecte: vincula a totes les interfícies)</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Dogecoin Core is probably already running.</source>
-        <translation>No es pot obtenir un bloqueig del directori de dades %s. El Dogecoin Core probablement ja s'estigui executant.</translation>
+        <source>Cannot obtain a lock on data directory %s. Muricoin Core is probably already running.</source>
+        <translation>No es pot obtenir un bloqueig del directori de dades %s. El Muricoin Core probablement ja s'estigui executant.</translation>
     </message>
     <message>
         <source>Create new files with system default permissions, instead of umask 077 (only effective with disabled wallet functionality)</source>
@@ -3037,8 +3037,8 @@
         <translation>Executa l'ordre quan es rebi un avís rellevant o veiem una forquilla molt llarga (%s en cmd és reemplaçat per un missatge)</translation>
     </message>
     <message>
-        <source>Fees (in DOGE/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Comissions (en DOGE/Kb) inferiors a això es consideren de comissió zero per a la transmissió (per defecte: %s)</translation>
+        <source>Fees (in MUR/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Comissions (en MUR/Kb) inferiors a això es consideren de comissió zero per a la transmissió (per defecte: %s)</translation>
     </message>
     <message>
         <source>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</source>
@@ -3069,35 +3069,35 @@
         <translation>Aquest producte inclou programari desenvolupat pel projecte OpenSSL per a ús a l'OpenSSL Toolkit &lt;https://www.openssl.org/&gt; i programari criptogràfic escrit per Eric Young i programari UPnP escrit per Thomas Bernard.</translation>
     </message>
     <message>
-        <source>To use dogecoind, or the -server option to dogecoin-qt, you must set an rpcpassword in the configuration file:
+        <source>To use muricoind, or the -server option to muricoin-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=dogecoinrpc
+rpcuser=muricoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s "Dogecoin Alert" admin@foo.com
+for example: alertnotify=echo %%s | mail -s "Muricoin Alert" admin@foo.com
 </source>
-        <translation>Per utilitzar dogecoind, o l'opció de serviddor de dogecoin-qt, heu de definir una rpcpassword en el fitxer de configuració:
+        <translation>Per utilitzar muricoind, o l'opció de serviddor de muricoin-qt, heu de definir una rpcpassword en el fitxer de configuració:
 %s
 Es recomana que utilitzeu la contrasenya aleatòria següent:
-rpcuser=dogecoinrpc
+rpcuser=muricoinrpc
 rpcpassword=%s
 (no cal que recordeu la contrasenya)
 El nom d'usuari i la contrasenya NO han de ser els mateixos.
 Si el fitxer no existeix, creeu-ne un amb permisos de lectura només per al seu propietari.
 Es recomana definir alertnotify per tal de ser notificat de qualsevol problema;
-per exemple: alertnotify=echo %%s | mail -s "Avís de Dogecoin" admin@foo.com</translation>
+per exemple: alertnotify=echo %%s | mail -s "Avís de Muricoin" admin@foo.com</translation>
     </message>
     <message>
         <source>Warning: -maxtxfee is set very high! Fees this large could be paid on a single transaction.</source>
         <translation>Avís: s'ha especificat un -maxtxfee molt alt! Comissions tan grans podrien pagar-se en una única transacció.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Dogecoin Core will not work properly.</source>
-        <translation>Avís: comproveu que la data i hora del vostre ordinador siguin correctes! Si el vostre rellotge no és correcte, el Dogecoin Core no funcionarà correctament.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Muricoin Core will not work properly.</source>
+        <translation>Avís: comproveu que la data i hora del vostre ordinador siguin correctes! Si el vostre rellotge no és correcte, el Muricoin Core no funcionarà correctament.</translation>
     </message>
     <message>
         <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
@@ -3124,16 +3124,16 @@ per exemple: alertnotify=echo %%s | mail -s "Avís de Dogecoin" admin@foo.com</t
         <translation>Copyright (C) 2009-%i Els desenvolupadors del Bitcoin Core</translation>
     </message>
     <message>
-        <source>Copyright (C) 2013-%i The Dogecoin Core Developers</source>
-        <translation>Copyright (C) 2013-%i Els desenvolupadors del Dogecoin Core</translation>
+        <source>Copyright (C) 2013-%i The Muricoin Core Developers</source>
+        <translation>Copyright (C) 2013-%i Els desenvolupadors del Muricoin Core</translation>
     </message>
     <message>
         <source>Could not parse -rpcbind value %s as network address</source>
         <translation>No s'ha pogut analitzar el valor -rpcbind %s com una adreça de xarxa</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Dogecoin Core</source>
-        <translation>Error en carregar wallet.dat: el moneder requereix una versió més nova del Dogecoin core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Muricoin Core</source>
+        <translation>Error en carregar wallet.dat: el moneder requereix una versió més nova del Muricoin core</translation>
     </message>
     <message>
         <source>Error reading from database, shutting down.</source>
@@ -3144,16 +3144,16 @@ per exemple: alertnotify=echo %%s | mail -s "Avís de Dogecoin" admin@foo.com</t
         <translation>Error: s'ha trobat un argument -tor no acceptat. Feu servir -onion.</translation>
     </message>
     <message>
-        <source>Fee (in DOGE/kB) to add to transactions you send (default: %s)</source>
-        <translation>Comissió en (DOGE/kB) per afegir a les transaccions que envieu (per defecte: %s)</translation>
+        <source>Fee (in MUR/kB) to add to transactions you send (default: %s)</source>
+        <translation>Comissió en (MUR/kB) per afegir a les transaccions que envieu (per defecte: %s)</translation>
     </message>
     <message>
         <source>Information</source>
         <translation>&amp;Informació</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Dogecoin Core is shutting down.</source>
-        <translation>Ha fallat la inicialització de la comprovació de validesa. El Dogecoin Core s'està aturant.</translation>
+        <source>Initialization sanity check failed. Muricoin Core is shutting down.</source>
+        <translation>Ha fallat la inicialització de la comprovació de validesa. El Muricoin Core s'està aturant.</translation>
     </message>
     <message>
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s'</source>
@@ -3189,7 +3189,7 @@ per exemple: alertnotify=echo %%s | mail -s "Avís de Dogecoin" admin@foo.com</t
     </message>
     <message>
         <source>RPC SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
-        <translation>Opcions RPC SSL: (veieu el wiki del Dogecoin per a instruccions de configuració de l'SSL)</translation>
+        <translation>Opcions RPC SSL: (veieu el wiki del Muricoin per a instruccions de configuració de l'SSL)</translation>
     </message>
     <message>
         <source>RPC server options:</source>
@@ -3276,8 +3276,8 @@ per exemple: alertnotify=echo %%s | mail -s "Avís de Dogecoin" admin@foo.com</t
         <translation>Nom d'usuari per a connexions JSON-RPC</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Dogecoin Core to complete</source>
-        <translation>Cal reescriure el moneder: reiniceu el Dogecoin Core per completar-ho.</translation>
+        <source>Wallet needed to be rewritten: restart Muricoin Core to complete</source>
+        <translation>Cal reescriure el moneder: reiniceu el Muricoin Core per completar-ho.</translation>
     </message>
     <message>
         <source>Warning</source>

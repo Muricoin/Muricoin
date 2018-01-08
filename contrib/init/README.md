@@ -1,10 +1,10 @@
 Sample configuration files for:
 
-SystemD: dogecoind.service
-Upstart: dogecoind.conf
-OpenRC:  dogecoind.openrc
-         dogecoind.openrcconf
-CentOS:  dogecoind.init
+SystemD: muricoind.service
+Upstart: muricoind.conf
+OpenRC:  muricoind.openrc
+         muricoind.openrcconf
+CentOS:  muricoind.init
 
 have been made available to assist packagers in creating node packages here.
 

@@ -1,21 +1,21 @@
 
 Debian
 ====================
-This directory contains files used to package dogecoind/dogecoin-qt
-for Debian-based Linux systems. If you compile dogecoind/dogecoin-qt yourself, there are some useful files here.
+This directory contains files used to package muricoind/muricoin-qt
+for Debian-based Linux systems. If you compile muricoind/muricoin-qt yourself, there are some useful files here.
 
-## dogecoin: URI support ##
+## muricoin: URI support ##
 
 
-dogecoin-qt.desktop  (Gnome / Open Desktop)
+muricoin-qt.desktop  (Gnome / Open Desktop)
 To install:
 
-	sudo desktop-file-install dogecoin-qt.desktop
+	sudo desktop-file-install muricoin-qt.desktop
 	sudo update-desktop-database
 
 If you build yourself, you will either need to modify the paths in
-the .desktop file or copy or symlink your dogecoin-qt binary to `/usr/bin`
+the .desktop file or copy or symlink your muricoin-qt binary to `/usr/bin`
 and the `../../share/pixmaps/bitcoin128.png` to `/usr/share/pixmaps`
 
-dogecoin-qt.protocol (KDE)
+muricoin-qt.protocol (KDE)
 

@@ -1,15 +1,15 @@
 [Unit]
-Description=Dogecoin's distributed currency daemon
+Description=Muricoin's distributed currency daemon
 After=network.target
 
 [Service]
-User=dogecoin
-Group=dogecoin
+User=muricoin
+Group=muricoin
 
 Type=forking
-PIDFile=/var/lib/dogecoind/dogecoind.pid
-ExecStart=/usr/bin/dogecoind -daemon -pid=/var/lib/dogecoind/dogecoind.pid \
--conf=/etc/dogecoin/dogecoin.conf -datadir=/var/lib/dogecoind -disablewallet
+PIDFile=/var/lib/muricoind/muricoind.pid
+ExecStart=/usr/bin/muricoind -daemon -pid=/var/lib/muricoind/muricoind.pid \
+-conf=/etc/muricoin/muricoin.conf -datadir=/var/lib/muricoind -disablewallet
 
 Restart=always
 PrivateTmp=true
